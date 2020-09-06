@@ -23,12 +23,14 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			title: 'Home',
 			template: './src/views/index.html',
-			filename: 'index.html'
+			filename: 'index.html',
+			minify: true
 		}),
 		new HtmlWebpackPlugin({
 			title: 'About',
 			template: './src/views/about.html',
-			filename: 'about.html'
+			filename: 'about.html',
+			minify: true
 		})
 	],
 
