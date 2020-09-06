@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const workboxPlugin = require('workbox-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 	mode: 'development',
@@ -18,6 +19,16 @@ module.exports = {
 			swDest: 'sw.js',
 			clientsClaim: true,
 			skipWaiting: false
+		}),
+		new HtmlWebpackPlugin({
+			title: 'Home',
+			template: './src/views/index.html',
+			filename: 'index.html'
+		}),
+		new HtmlWebpackPlugin({
+			title: 'About',
+			template: './src/views/about.html',
+			filename: 'about.html'
 		})
 	],
 
