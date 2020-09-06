@@ -4,3 +4,7 @@ $color: red;
 body {
   background-color: $color
 }
+
+h1 {
+  @include h1;
+}
