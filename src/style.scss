@@ -1,11 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 @import "./variables";
 $color: #f4f4f4;
 
 body {
-  background-color: $color
+  background-color: $color;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  @include container;
 }
 
 h1 {
   @include h1;
   color: lightcoral;
 }
+
+h2 {
+  @include h2;
+}
+
+h3 {
+  @include h3;
+}
+
+h4 {
+  @include h4;
+}
+
+p {
+  @include p;
+}
+
