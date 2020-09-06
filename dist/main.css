@@ -1,6 +1,9 @@
-h1 {
-  font-size: 12px; }
-
 body {
-  background-color: red; }
+  background-color: #f4f4f4; }
+
+h1 {
+  font-size: 33px;
+  line-height: 53px;
+  margin-bottom: 28px;
+  color: lightcoral; }
 

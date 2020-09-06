@@ -1,5 +1,5 @@
 @import "./variables";
-$color: red;
+$color: #f4f4f4;
 
 body {
   background-color: $color
@@ -7,4 +7,5 @@ body {
 
 h1 {
   @include h1;
+  color: lightcoral;
 }
