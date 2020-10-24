@@ -108,6 +108,15 @@ define("./sw.js",['./workbox-decc7022'], function (workbox) { 'use strict';
    */
 
   workbox.precacheAndRoute([{
+    "url": "images/nadya-spetnitskaya-z11dSXXlt8c-unsplash.8a81ce.jpg",
+    "revision": "ae211b94cfbd51fe982d5441ce360876"
+  }, {
+    "url": "images/peter-bravo-de-los-rios-OklpRh8-Sns-unsplash.c5f94b.jpg",
+    "revision": "1376cd7caa18623e322bd42fd5ce1ba4"
+  }, {
+    "url": "images/saahil-khatkhate-kfDsMDyX1K0-unsplash.60547e.jpg",
+    "revision": "d267eaaaeb6e46cc741cce504142d440"
+  }, {
     "url": "main.css",
     "revision": "5d805d1058d99d034c4174fae65f7bac"
   }, {
