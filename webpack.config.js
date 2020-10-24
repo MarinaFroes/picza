@@ -26,12 +26,6 @@ module.exports = {
 			filename: 'index.html',
 			minify: true
 		}),
-		new HtmlWebpackPlugin({
-			title: 'About',
-			template: './src/views/about.html',
-			filename: 'about.html',
-			minify: true
-		})
 	],
 
 	devServer: {
